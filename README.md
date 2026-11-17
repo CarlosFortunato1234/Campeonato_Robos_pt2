@@ -33,7 +33,7 @@ CADASTRANDO OFENSIVO e VALIDAÇÕES:
 <img width="477" height="904" alt="image" src="https://github.com/user-attachments/assets/f33a55d8-83a1-4f34-8266-a48867dc19f9" />
 
 
-CADASTRANBDO EQUILIBRADO E BATALHA: 
+CADASTRANDO EQUILIBRADO E BATALHA: 
 
 <img width="479" height="902" alt="image" src="https://github.com/user-attachments/assets/cd9dd806-70e5-4a50-a836-3fecfe5ab5de" />
 
@@ -138,7 +138,7 @@ O polimorfismo foi aplicado principalmente no meu método atacar(), que eu já t
 Antes, todos os robô utilizavam exatamente o mesmo cálculo de dano, agora precisei adaptar esse método para considerar o comportamento dos três tipos de robôs..
 Pra isso, criei métodos: ataqueNoGolpe() e ajustarDanoRecebido() na classe robo. 
 
-Na classe RoboOfensivo utilizei o @Override para sobrescrever o método atacarnogolpe, acresscentando 5 ao ataque durante o cálculo, sem alterar o valor original do tributo. 
+Na classe RoboOfensivo utilizei o @Override para sobrescrever o método atacarnogolpe, acrescentando 5 ao ataque durante o cálculo, sem alterar o valor original do atributo. 
 
 
 Já na classe robo defensivo sobrescrevi  o metodo ajustardanorecebido fazendo com que esse tipo de robô reduza 3 do dano recebido respeitando o minimo de 2. 
