@@ -1,5 +1,5 @@
 # Campeonato_Robos_pt2
-(RODAR A PARTIR DO README) 
+(RODAR A PARTIR DA MAIN) 
 
 
 TESTE 1: 
