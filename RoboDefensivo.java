@@ -2,9 +2,8 @@ package Exercicio_avalitivo;
 
 public class RoboDefensivo extends Robo {
 
-    public RoboDefensivo(int codigo, String nome, int ataque, int defesa, int energia,
-                         int vitorias, int derrotas, int pontos, int combates) {
-        super(codigo, nome, ataque, defesa, energia, vitorias, derrotas, pontos, combates);
+    public RoboDefensivo(int codigo, String nome, int ataque, int defesa) {
+        super(codigo, nome, ataque, defesa);
     }
 
     @Override
