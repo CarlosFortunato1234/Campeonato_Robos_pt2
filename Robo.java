@@ -14,7 +14,7 @@ public abstract class Robo {
     private int pontos;
     private int combates;
 
-    // Mantive os mesmos parâmetros do meu construtor original
+   
     public Robo(int codigo, String nome, int ataque, int defesa) {
         this.codigo = codigo;
         this.nome = nome;
